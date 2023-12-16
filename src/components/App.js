@@ -4,7 +4,8 @@ import Logo from "./Logo";
 import Form from "./Form";
 import PackingList from "./PackingList";
 import Stats from "./Stats";
-import AccordionCompv2 from "../Challenges/AccordionCompv2";
+// import AccordionCompv2 from "../Challenges/AccordionCompv2";
+import TipCalculator from "../Challenges/TipCalculator";
 export default function App() {
   const [items, setItems] = useState([]);
 
@@ -42,7 +43,8 @@ export default function App() {
       />
       <Stats items={items} />
       {/* <Flashcards1 /> */}
-      <AccordionCompv2 />
+      {/* <AccordionCompv2 /> */}
+      <TipCalculator />
     </div>
   );
 }
